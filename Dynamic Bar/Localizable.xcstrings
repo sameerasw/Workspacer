@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "app_name" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -8,6 +11,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dynamic Bar"
+          }
+        }
+      }
+    },
+    "clamshell_detected" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clamshell mode detected"
+          }
+        }
+      }
+    },
+    "internal_display_active" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internal display active"
           }
         }
       }
@@ -34,27 +59,8 @@
         }
       }
     },
-    "clamshell_detected" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clamshell mode detected"
-          }
-        }
-      }
-    },
-    "internal_display_active" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Internal display active"
-          }
-        }
-      }
+    "Quit" : {
+
     }
   },
   "version" : "1.0"
