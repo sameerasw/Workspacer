@@ -26,6 +26,17 @@
         }
       }
     },
+    "corner_radius" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Corners"
+          }
+        }
+      }
+    },
     "internal_display_active" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -55,6 +66,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dynamic monitoring is paused."
+          }
+        }
+      }
+    },
+    "off" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
           }
         }
       }

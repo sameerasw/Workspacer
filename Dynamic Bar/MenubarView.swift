@@ -2,10 +2,13 @@ import SwiftUI
 
 struct MenubarView: View {
     @EnvironmentObject var displayMonitor: DisplayMonitor
+    @StateObject var maskManager = CornerMaskManager.shared
     
     var body: some View {
         VStack(spacing: 16) {
             headerSection
+            
+            cornerMaskSection
 
             Button("Quit", systemImage: "power", action: {
                 NSApplication.shared.terminate(nil)
@@ -33,7 +36,21 @@ struct MenubarView: View {
             Spacer()
 
             Toggle("",isOn: $displayMonitor.isEnabled)
-                .toggleStyle(SwitchToggleStyle(tint: .blue))
+                .toggleStyle(.switch)
+        }
+    }
+
+    private var cornerMaskSection: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                Text("corner_radius")
+                    .font(.subheadline)
+                    .bold()
+                Spacer()
+
+                Slider(value: $maskManager.cornerRadius, in: 0...50)
+                    .controlSize(.small)
+            }
         }
     }
 }
