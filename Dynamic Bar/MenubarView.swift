@@ -7,7 +7,9 @@ struct MenubarView: View {
     var body: some View {
         VStack(spacing: 16) {
             headerSection
-            
+
+            menubarSection
+
             cornerMaskSection
 
             Button("Quit", systemImage: "power", action: {
@@ -33,6 +35,18 @@ struct MenubarView: View {
             Text("app_name")
                 .font(.headline)
             
+            Spacer()
+
+        }
+    }
+
+
+    private var menubarSection: some View {
+        HStack {
+            Text("dynamic_menubar")
+                .font(.subheadline)
+                .bold()
+
             Spacer()
 
             Toggle("",isOn: $displayMonitor.isEnabled)

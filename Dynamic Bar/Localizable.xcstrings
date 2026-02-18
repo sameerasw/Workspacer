@@ -10,7 +10,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dynamic Bar"
+            "value" : "Workspacer"
           }
         }
       }
@@ -33,6 +33,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Corners"
+          }
+        }
+      }
+    },
+    "dynamic_menubar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dynamic menubar"
           }
         }
       }

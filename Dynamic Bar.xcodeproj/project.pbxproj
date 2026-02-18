@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B97470902F4583D900B118D9 /* Dynamic Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97470902F4583D900B118D9 /* Workspacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workspacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		B97470912F4583D900B118D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B97470902F4583D900B118D9 /* Dynamic Bar.app */,
+				B97470902F4583D900B118D9 /* Workspacer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B974708F2F4583D900B118D9 /* Dynamic Bar */ = {
+		B974708F2F4583D900B118D9 /* Workspacer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B974709B2F4583D900B118D9 /* Build configuration list for PBXNativeTarget "Dynamic Bar" */;
+			buildConfigurationList = B974709B2F4583D900B118D9 /* Build configuration list for PBXNativeTarget "Workspacer" */;
 			buildPhases = (
 				B974708C2F4583D900B118D9 /* Sources */,
 				B974708D2F4583D900B118D9 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				B97470922F4583D900B118D9 /* Dynamic Bar */,
 			);
-			name = "Dynamic Bar";
+			name = Workspacer;
 			packageProductDependencies = (
 			);
 			productName = "Dynamic Bar";
-			productReference = B97470902F4583D900B118D9 /* Dynamic Bar.app */;
+			productReference = B97470902F4583D900B118D9 /* Workspacer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B974708F2F4583D900B118D9 /* Dynamic Bar */,
+				B974708F2F4583D900B118D9 /* Workspacer */,
 			);
 		};
 /* End PBXProject section */
@@ -258,14 +258,17 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Workspacer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sameerasw.Dynamic-Bar";
+				PRODUCT_BUNDLE_IDENTIFIER = sameerasw.Workspacer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -290,14 +293,17 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Workspacer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "sameerasw.Dynamic-Bar";
+				PRODUCT_BUNDLE_IDENTIFIER = sameerasw.Workspacer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -321,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B974709B2F4583D900B118D9 /* Build configuration list for PBXNativeTarget "Dynamic Bar" */ = {
+		B974709B2F4583D900B118D9 /* Build configuration list for PBXNativeTarget "Workspacer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B974709C2F4583D900B118D9 /* Debug */,
