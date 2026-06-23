@@ -6,3 +6,4 @@ tatami.app/
 benchmark-*.csv
 updates/
 *UserInterfaceState.xcuserstate
+.vscode/
